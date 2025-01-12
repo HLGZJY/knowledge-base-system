@@ -1,0 +1,32 @@
+.add-knowledge-container {
+  max-width: 800px;
+  margin: 24px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.add-knowledge-container h2 {
+  margin-bottom: 24px;
+  color: #1890ff;
+}
+
+.add-knowledge-form {
+  max-width: 600px;
+}
+
+.ant-form-item-label > label {
+  font-weight: 500;
+}
+
+.ant-upload-list-item {
+  margin-top: 8px;
+}
+
+@media (max-width: 576px) {
+  .add-knowledge-container {
+    margin: 16px;
+    padding: 16px;
+  }
+}
